@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>CEPC0HUT7E</Machine>
+    <WindowsUser>STEINFELDS</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>bdcf9c17-df56-4b0f-be9a-3d5b146ee819</PackageIdentityName>
+    <PackageIdentityPublisher>CN=STEINFELDS</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\steinfelds\OneDrive - RTTS\EmersonPublicLibrary\EmersonPublicLibrary\bld\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>
+    </WindowsSdkPath>
+    <LayoutDir>C:\Users\steinfelds\OneDrive - RTTS\EmersonPublicLibrary\EmersonPublicLibrary\bin\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>63C1A361CCDC0D49E85DAE8E97B172A85428AB07D65EFF67B8D50A2910D0706C</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>bdcf9c17-df56-4b0f-be9a-3d5b146ee819_1.0.0.0_neutral__0mvnxj6qyjpr8</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>bdcf9c17-df56-4b0f-be9a-3d5b146ee819_0mvnxj6qyjpr8!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>bdcf9c17-df56-4b0f-be9a-3d5b146ee819</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=STEINFELDS</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\steinfelds\OneDrive - RTTS\EmersonPublicLibrary\EmersonPublicLibrary\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-09-12T19:57:22.276</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\steinfelds\OneDrive - RTTS\EmersonPublicLibrary\EmersonPublicLibrary\about\boardoftrustees.html">
+      <PackagePath>about\boardoftrustees.html</PackagePath>
+      <Modified>2018-02-09T16:11:55.954</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steinfelds\OneDrive - RTTS\EmersonPublicLibrary\EmersonPublicLibrary\about\history.html">
+      <PackagePath>about\history.html</PackagePath>
+      <Modified>2018-09-11T20:51:12.234</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steinfelds\OneDrive - RTTS\EmersonPublicLibrary\EmersonPublicLibrary\libraryservices.html">
+      <PackagePath>libraryservices.html</PackagePath>
+      <Modified>2018-09-11T14:59:09.753</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steinfelds\OneDrive - RTTS\EmersonPublicLibrary\EmersonPublicLibrary\contact.html">
+      <PackagePath>contact.html</PackagePath>
+      <Modified>2018-09-11T14:59:09.753</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steinfelds\OneDrive - RTTS\EmersonPublicLibrary\EmersonPublicLibrary\technologyhelp.html">
+      <PackagePath>technologyhelp.html</PackagePath>
+      <Modified>2018-09-11T14:59:09.753</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steinfelds\OneDrive - RTTS\EmersonPublicLibrary\EmersonPublicLibrary\programs.html">
+      <PackagePath>programs.html</PackagePath>
+      <Modified>2018-09-11T14:59:09.753</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steinfelds\OneDrive - RTTS\EmersonPublicLibrary\EmersonPublicLibrary\about.html">
+      <PackagePath>about.html</PackagePath>
+      <Modified>2018-09-11T20:51:23.119</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steinfelds\OneDrive - RTTS\EmersonPublicLibrary\EmersonPublicLibrary\index.html">
+      <PackagePath>index.html</PackagePath>
+      <Modified>2018-09-12T20:14:20.003</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steinfelds\OneDrive - RTTS\EmersonPublicLibrary\EmersonPublicLibrary\images\Around-the-County-Bergenfield-Passport-Services.jpg">
+      <PackagePath>images\Around-the-County-Bergenfield-Passport-Services.jpg</PackagePath>
+      <Modified>2018-09-12T18:27:17.667</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steinfelds\OneDrive - RTTS\EmersonPublicLibrary\EmersonPublicLibrary\images\Photo2.jpg">
+      <PackagePath>images\Photo2.jpg</PackagePath>
+      <Modified>2018-09-12T18:28:32.398</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steinfelds\OneDrive - RTTS\EmersonPublicLibrary\EmersonPublicLibrary\images\Rocks.jpg">
+      <PackagePath>images\Rocks.jpg</PackagePath>
+      <Modified>2018-09-12T18:28:46.980</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steinfelds\OneDrive - RTTS\EmersonPublicLibrary\EmersonPublicLibrary\rocks.jpg">
+      <PackagePath>rocks.jpg</PackagePath>
+      <Modified>2018-09-12T18:28:46.980</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steinfelds\OneDrive - RTTS\EmersonPublicLibrary\EmersonPublicLibrary\images\bookcase.jpg">
+      <PackagePath>images\bookcase.jpg</PackagePath>
+      <Modified>2018-09-10T20:25:09.329</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steinfelds\OneDrive - RTTS\EmersonPublicLibrary\EmersonPublicLibrary\images\books.jpg">
+      <PackagePath>images\books.jpg</PackagePath>
+      <Modified>2018-09-10T20:18:06.323</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steinfelds\OneDrive - RTTS\EmersonPublicLibrary\EmersonPublicLibrary\images\Photo1.png">
+      <PackagePath>images\Photo1.png</PackagePath>
+      <Modified>2018-09-12T18:28:14.611</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steinfelds\OneDrive - RTTS\EmersonPublicLibrary\EmersonPublicLibrary\images\EmersonHeader.png">
+      <PackagePath>images\EmersonHeader.png</PackagePath>
+      <Modified>2018-09-10T20:31:25.556</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steinfelds\OneDrive - RTTS\EmersonPublicLibrary\EmersonPublicLibrary\images\LockScreenLogo.scale-200.png">
+      <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2018-02-09T16:11:55.954</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steinfelds\OneDrive - RTTS\EmersonPublicLibrary\EmersonPublicLibrary\images\SplashScreen.scale-200.png">
+      <PackagePath>images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-02-09T16:11:55.954</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steinfelds\OneDrive - RTTS\EmersonPublicLibrary\EmersonPublicLibrary\images\Square150x150Logo.scale-200.png">
+      <PackagePath>images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-02-09T16:11:55.954</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steinfelds\OneDrive - RTTS\EmersonPublicLibrary\EmersonPublicLibrary\images\Square44x44Logo.scale-200.png">
+      <PackagePath>images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-02-09T16:11:55.954</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steinfelds\OneDrive - RTTS\EmersonPublicLibrary\EmersonPublicLibrary\images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-02-09T16:11:55.954</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steinfelds\OneDrive - RTTS\EmersonPublicLibrary\EmersonPublicLibrary\images\StoreLogo.png">
+      <PackagePath>images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-02-09T16:11:55.954</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steinfelds\OneDrive - RTTS\EmersonPublicLibrary\EmersonPublicLibrary\images\Wide310x150Logo.scale-200.png">
+      <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-02-09T16:11:55.954</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steinfelds\OneDrive - RTTS\EmersonPublicLibrary\EmersonPublicLibrary\css\style.css">
+      <PackagePath>css\style.css</PackagePath>
+      <Modified>2018-09-12T19:21:55.850</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steinfelds\OneDrive - RTTS\EmersonPublicLibrary\EmersonPublicLibrary\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2018-09-11T14:15:37.441</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steinfelds\OneDrive - RTTS\EmersonPublicLibrary\EmersonPublicLibrary\js\main.js">
+      <PackagePath>js\main.js</PackagePath>
+      <Modified>2018-09-11T14:15:37.457</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\steinfelds\OneDrive - RTTS\EmersonPublicLibrary\EmersonPublicLibrary\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-09-12T19:57:22.105</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
