@@ -1,0 +1,111 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Emerson Public Library</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--<meta name="viewport" content-type="width=device-with initial-scale=1"/>-->
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <a class="logo"><img id="librarylogo" src="images/EmersonHeader.png" alt="emerson public library" onclick='location.href="index.html"'></a>
+        </header>
+        <div class="navbar-inner">
+            <ul class="nav" align="center">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="about.html" class="dropbtn">About</a>
+                    <div class="dropdown-content">
+                        <a href="about/history.html">History</a>
+                        <a href="about/boardoftrustees.html">Board of Trustees</a>
+                        <a href="about/libraryhours.html">Library Hours</a>
+                        <a href="about/finesfeespolicies.html">Fines, Fees, & Policies</a>
+                        <a href="about/libraryloanperiods.html">Library Loan Periods</a>
+                        <a href="about/unattendedchildpolicy.html">Unattended Child Policy</a>
+                        <a href="about/internetusagepolicy.html">Internet Usage Policy</a>
+                        <a href="about/annualmeetingnotice.html">Annual Meeting Notice</a>
+                    </div>
+                </li>
+                <li> <a href="http://bccls.evanced.info/signup/calendar?lib=31" target="_blank">Calendar</a></li>
+                <li class="dropdown">
+                    <a href="programs.html" class="dropbtn">Programs</a>
+                    <div class="dropdown-content">
+                        <a href="programs/adultprograms.html">Adult Programs</a>
+                        <a href="programs/kidsprograms.html">Kids Programs</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="technologyhelp.html" class="dropbtn">Technology Help</a>
+                    <div class="dropdown-content">
+                        <a href="technologyhelp/helpwithebooks.html">Help with EBooks</a>
+                        <a href="technologyhelp/helpwithrbdigital.html">Help with RBdigital</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="libraryservices.html" class="dropbtn">Library Services</a>
+                    <div class="dropdown-content">
+                        <a href="libraryservices/publicmeetingroom.html">Public Meeting Room</a>
+                    </div>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--div id="slider">
+        <figure>
+            <img class="mySlides" src="images/Around-the-County-Bergenfield-Passport-Services.jpg">
+            <img class="mySlides" src="images/Photo1.png">
+            <img class="mySlides" src="images/Photo2.jpg">
+            <img class="mySlides" src="images/Rocks.jpg">
+        </figure>
+    </div>-->
+    <div class="slider">
+        <div id="slides">
+            <img class="slide" src="images/slides/Rocks.jpg" z-index="-1">
+        </div>
+    </div>
+    <script>
+        var images = ['Photo1.png', 'Around-the-County-Bergenfield-Passport-Services.jpg', 'Photo2.jpg'];
+        var x = 0;
+        var imgs = document.getElementById('slides');
+        setInterval(slider, 3000);
+        function slider() {
+            if (x < images.length) {
+                x = x + 1;
+            } else {
+                x = 1;
+            }
+            imgs.innerHTML = "<img class='slide' src=images/slides/" + images[x - 1] + " z-index='- 1'>";
+        }
+    </script>
+    <section>
+        <ul id="thumbnails">
+            <li class="thumbnail" onclick="window.open('https://ebccls.overdrive.com/');" >
+                <img src="images/thumbnails/libby-300x300.png">
+                <h3>Meet Libby!</h3>
+                <p>eBCCLS has migrated from cloudLibrary to OverDrive as of May 9th 2018. Instantly borrow free eBooks and audiobooks to read on your device or Kindle. Compatible with all smart phones, tablets, computers, and eReaders. The Libby app is a new, streamlined way to borrow digital books and audiobooks from your library. This free app, created by OverDrive, is available for Android, iOS (iPhone/iPad/iPod touch), Windows 10 devices.</p>
+            </li>
+
+            <li class="thumbnail" onclick="window.open('https://www.rbdigital.com/bccls/service/magazines/landing?');">
+                <img src="images/thumbnails/RB2.png">
+                <h3>RBdigital</h3>
+                <p>Do you love magazines? If so, then you'll love RBdigital! If you remember Zinio, then you know RBdigital. RBdigital is Zinio with a new name. It is a digital newsstand. Through the BCCLS partnership with RBdigital, you can borrow over 250 magazines and read them on your computer or download them to portable devices. There are no check out limits, no returns, and no hold lists.</p>
+            </li>
+
+            <li class="thumbnail" onclick="window.open('https://catalog.bccls.org/polaris/patronaccount/selfregister.aspx?ctx=1');">
+                <img src="images/thumbnails/DSCF1611.jpg">
+                <h3>Library Cards</h3>
+                <p>Emerson residents who have never had a Library card in BCCLS before can apply online and receive their card by mail.</p>
+            </li>
+        </ul>
+    </section>
+    <footer></footer>
+</body>
+
+</html>
+
+
